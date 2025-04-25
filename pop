@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>programmer- from Kigali</title>
+<link rel="stylesheet" href="rr.css">
+</head>
+<body>
+ <button><a href="2ndwrk.html"> go to 1st xkl work</a></button>
+  <header>
+    <h1>Programmer from Kigali</h1>
+  </header>
+  <div class="marquee-frame">
+    <span class="marquee-text">Welcome to fullstack Profile &mdash;, Ethical Hacking, and Kigali Vibes!</span>
+  </div>
+  <div class="content-frame">
+    <div class="nav-boxes">
+      <button popovertarget="personal">Personal Info</button>
+      <button popovertarget="academic">Academic Qualifications</button>
+      <button popovertarget="professional">Professional Qualifications</button>
+      <button popovertarget="experience">Job Experience</button>
+      <button popovertarget="hobbies">Hobbies</button>
+      <button popovertarget="gallery">Gallery</button>
+    </div>
+
+    <div id="personal" class="section-box" popover>
+      <h2>Personal Information</h2>
+      <p><strong>Name:</strong> kevin</p>
+      <p><strong>City:</strong> Kigali</p>
+      <p><strong>Role:</strong> Ethical Black Hat/ Programmer // Operative</p>
+    </div>
+
+    <div id="academic" class="section-box" popover>
+      <h2>Academic Qualifications</h2>
+      <table>
+        <tr><th>Degree</th><th>Institution</th><th>Year</th></tr>
+        <tr><td>BSc Computer Science</td><td>University of Rwanda</td><td>2017</td></tr>
+        <tr><td>Certified Ethical Hacker</td><td>EC-Council</td><td>2019</td></tr>
+      </table>
+    </div>
+
+    <div id="professional" class="section-box" popover>
+      <h2>Professional Qualifications</h2>
+      <ul>
+        <li>frontend developer</li>
+        <li>OSCP - Offensive Security Certified Professional</li>
+        <li>CPT - Certified Penetration Tester</li>
+      </ul>
+    </div>
+
+    <div id="experience" class="section-box" popover>
+      <h2>Job Experience</h2>
+      <ul>
+        <li>Freelance developer Consultant (2019 - Present)</li>
+        <li>Collaborator - RNP Cybercrime Unit (Rwanda)</li>
+        <li>Informant/Operative - CIA (covert)</li>
+      </ul>
+    </div>
+
+    <div id="hobbies" class="section-box" popover>
+      <h2>Hobbies</h2>
+      <ul>
+        <li>Reverse engineering malware</li>
+        <li>Building private C2 infrastructure</li>
+        <li>Street photography around Kigali</li>
+        <li>gaming developments</li>
+      </ul>
+    </div>
+
+    <div id="gallery" class="section-box" popover>
+      <h2>Photo Gallery - Kigali Vibes</h2>
+      <div class="gallery">
+        <img src="cnter.jpg" alt="convesation ce.." class="gallery-img">
+        <img src="Kings.jpg" alt="kings palace" class="gallery-img">
+        <img src="park.jpg" alt="nation park" class="gallery-img">
+      </div>
+    </div>
+
+  </div>
+  <div class="zoom-overlay" id="zoomOverlay">
+    <button class="close-zoom" id="closeZoom">✕</button>
+    <img src="" alt="Zoomed image" class="zoomed-image" id="zoomedImage">
+  </div>
+  <input type="text" name="comments" id="comm" placeholder="enter your comments plz?">
+<footer>
+  <p>&copy;allright served!!</p>
+</footer>
+</body>
+</html>
